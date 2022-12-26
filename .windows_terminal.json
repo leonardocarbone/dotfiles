@@ -1,0 +1,103 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
+        }
+    ],
+    "alwaysShowNotificationIcon": false,
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "colorScheme": "Terminal List",
+            "cursorHeight": 20,
+            "cursorShape": "vintage",
+            "experimental.retroTerminalEffect": false,
+            "font": 
+            {
+                "face": "CaskaydiaCove Nerd Font Mono",
+                "size": 12,
+                "weight": "normal"
+            },
+            "opacity": 100,
+            "tabTitle": null
+        },
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "elevate": true,
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": true,
+                "name": "Windows PowerShell"
+            }
+        ]
+    },
+    "schemes": 
+    [        
+        {
+            "background": "#000000",
+            "black": "#000000",
+            "blue": "#3D435E",
+            "brightBlack": "#7AA2F7",
+            "brightBlue": "#0014FF",
+            "brightCyan": "#28B9FF",
+            "brightGreen": "#38E3D8",
+            "brightPurple": "#9608FF",
+            "brightRed": "#E92F2F",
+            "brightWhite": "#7AC8FF",
+            "brightYellow": "#58CAFF",
+            "cursorColor": "#7AC8FF",
+            "cyan": "#28B9FF",
+            "foreground": "#7AC8FF",
+            "green": "#38E3D8",
+            "name": "Terminal List",
+            "purple": "#5B059B",
+            "red": "#E92F2F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#FF9E52",
+            "yellow": "#D9D000"
+        }
+    ],
+    "theme": "dark",
+    "useAcrylicInTabRow": true
+}
