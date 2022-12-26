@@ -14,9 +14,9 @@
                     "foreground": "#38E3D8",
                     "template": "  {{ .Icon }} ",                 
                     "properties": {
-                        "display_distro_name": true,
+                        "display_distro_name": false,
                         "windows": "\ue70f",
-                        "ubuntu": "\uf31c",
+                        "ubuntu": "\uebc9",
                         "macos": "\ue711"
                     }
                 },
